@@ -59,7 +59,7 @@ header label:hover{
         text-align: left;
         position: absolute;
         background: #ab2a3e;
-        width: 28%;
+        width: 25%;
         margin-left: -70%;
         transition: all 0.5s;
     }

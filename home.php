@@ -16,10 +16,10 @@
                 <ul>
                     <li><a href="">Inicio</a></li>
                     <li><a href="">Registro Capacitaciones</a></li>
-                    <li><a href="">Calculadora</a></li>
+                    <li><a href="calculadora/index.php">Calculadora de Estimación</a></li>
                     <li><a href="">Reporte 1</a></li>
                     <li><a href="">Reporte 2</a></li>
-                    <li><a href="">Reporte 3</a></li>
+                    <li><a href="index.html">Salir</a></li>
                 </ul>
             </nav>
         </header>
