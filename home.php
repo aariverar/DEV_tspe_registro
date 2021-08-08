@@ -4,9 +4,10 @@
     <title>Menú - Home</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="img/icono.png" />
     <link rel="stylesheet" href="css/estilosHome.css">
-    
+
 </head>
     <body>
         <header>
@@ -26,11 +27,29 @@
                     <li><a href="">Agrega...</a></li>
                     <li><a href="index.html">Salir</a></li>
                 </ul>
-            </nav>
+            </nav>         
         </header>
         <main>
-            <h1>Home</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestias illum alias quo magni nobis esse repellat modi ad! Illum aliquam repudiandae odio nostrum expedita aliquid, magnam laboriosam optio aspernatur?</p>
+            <div class="overlay"></div>
+
+            <div class="absolute">
+                <h1>Bienvenido a Herramientas TSOFT</h1>
+            </div>
+
+            <div class="content1">
+            <h2>Un espacio donde encontrarás compiladas las herrameintas más usadas en TSOFT y te ayudara a ingresar facilemte a cada una de ellas.</h2>
+            </div>
+            <video onloadstart="this.muted=true" autoplay loop>
+            <source src="videos/videobackground.mp4">
+        </video>
+        
         </main>
+        <div id="footer">
+            <p>Copyright © 2021 - Diseño Web realizado por Abraham Rivera</p>
+            <p><a href="mailto:aalexriverar@gmail.com">aalexriverar@gmail.com</a></p>
+        </div> 
     </body>
+
 </html>
+
+
