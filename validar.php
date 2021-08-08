@@ -6,9 +6,9 @@ session_start();
 $_SESSION['usuario']=$usuario;
 
 
-$conexion=mysqli_connect('localhost','root','','tspe_registros');
+$conexion=mysqli_connect('bfrjjmrh4mrn5h04ltgi-mysql.services.clever-cloud.com','upngpfhdqtbsetus','mrxBzwRgNSThtNva01Xp','bfrjjmrh4mrn5h04ltgi');
 
-$consulta="SELECT*FROM usuarios where usuario='$usuario' and password='$pass'";
+$consulta="SELECT * FROM tspe_registros where usuario='$usuario' and password='$pass'";
 $resultado=mysqli_query($conexion,$consulta);
 
 $filas=mysqli_num_rows($resultado);
