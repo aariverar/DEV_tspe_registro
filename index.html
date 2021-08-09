@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/cabecera.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
    <form action="validar.php" method="post">
@@ -17,6 +18,7 @@
    <p>Contraseña <input type="password" placeholder="Ingrese su contraseña" name="password"></p>
    <br>
    <br>
+   <p class="g-recaptcha" id="captcha1" data-sitekey="6LeYjOsbAAAAAO_K44IhIlNCmqEgEgLwRFYtgms_" ></p>
    <input type="submit" value="Ingresar">
    </form> 
    <br>

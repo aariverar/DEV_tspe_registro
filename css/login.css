@@ -38,6 +38,16 @@ input[type='submit']{
 	
 }
 
+#captcha1{
+	width: calc(100% - 20px);
+	padding: 5px 30%;
+	margin: auto;
+	margin-top: 9px;
+	font-size: 16px
+	
+	
+}
+
 
 .ok {
 	text-align: center;
