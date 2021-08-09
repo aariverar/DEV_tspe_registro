@@ -19,6 +19,7 @@
    <br>
    <br>
    <p class="g-recaptcha" id="captcha1" data-sitekey="6LeYjOsbAAAAAO_K44IhIlNCmqEgEgLwRFYtgms_" ></p>
+   <div id="status"></div>
    <input type="submit" value="Ingresar">
    </form> 
    <br>
@@ -31,3 +32,13 @@
   <p><a href="mailto:aalexriverar@gmail.com">aalexriverar@gmail.com</a></p>
 </div> 
 </html>
+<script>
+  function login(){
+    var response = grecaptcha.getResponse();
+    if(response.lenght !=0)
+      window.open("https://www.google.com/");
+    else
+      document.getElementById('status').innerText = "Acepta el captcha primero."
+    
+  }
+</script>
