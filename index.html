@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="css/cabecera.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <style>
+      df-messenger {
+       --df-messenger-bot-message: #878fac;
+       --df-messenger-button-titlebar-color: 	#6E0B14;
+       --df-messenger-chat-background-color: #fafafa;
+       --df-messenger-font-color: white;
+       --df-messenger-send-icon: #878fac;
+       --df-messenger-user-message: #479b3d;
+      }
+    </style>
 </head>
 <body>
    <form action="validar.php" method="post">
@@ -26,6 +37,14 @@
    <br>
    <br>
    <br>
+   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="T-Bot"
+  chat-icon="img/icono.png"
+  agent-id="54ae9502-70bd-4dfc-bfce-a0f0f7560571"
+  language-code="es"
+></df-messenger>
 </body>
 <div id="footer">
   <p>Copyright © 2021 - Diseño Web realizado por Abraham Rivera</p>

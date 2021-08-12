@@ -24,7 +24,7 @@
                     <li><a href="https://trello.com/b/gJNruRku/despliegues-la-positiva" target="_blank">La Positiva: Trello Despligues</a></li>
                     <li><a href="reportehoras/horas.php">La Positiva: Power BI Reporte Horas</a></li>
                     <li><a href="https://tsoftlatam.sharepoint.com/teams/PEPRODLaPositivaRQ/Documentos%20compartidos/Forms/AllItems.aspx?RootFolder=%2Fteams%2FPEPRODLaPositivaRQ%2FDocumentos%20compartidos%2F02%20Manuales%20y%20Gu%C3%ADas&FolderCTID=0x012000435E17B335A54840BB3E938A1DF9F1D1" target="_blank">La Positiva: Gestión de Conocimiento</a></li>
-                    <li><a href="">Agrega...</a></li>
+                    <li><a href="bot/index.php">ChatBot</a></li>
                     <li><a href="index.html">Salir</a></li>
                 </ul>
             </nav>         
@@ -37,7 +37,7 @@
             </div>
 
             <div class="content1">
-            <h2>Un espacio donde encontrarás compiladas las herrameintas más usadas en TSOFT y te ayudara a ingresar facilemte a cada una de ellas.</h2>
+            <h2>Un espacio donde encontrarás compiladas las herrameintas más usadas en TSOFT y te ayudará a ingresar fácilmente a cada una de ellas.</h2>
             </div>
             <video onloadstart="this.muted=true" autoplay loop>
             <source src="videos/videobackground.mp4">
