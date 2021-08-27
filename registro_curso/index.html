@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Registro Cursos</title>
+</head>
+<body>
+  <form action="guardarcurso.php" method="post">
+  <section class="form-register">
+    <h4>Registro Cursos TSOFT - PERU</h4>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese Nombres">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese Apellidos">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input list="categoria" name="cate" id="cate" class="controls" placeholder="Seniority">
+    <datalist id="categoria">
+  <option value="JUNIOR">
+  <option value="SEMI SENIOR">
+  <option value="SENIOR">
+</datalist>
+    <input list="servicios" name="servicio" id="browser" class="controls" placeholder="Escoja Servicio">
+      <datalist id="servicios">
+    <option value="AUNA">
+    <option value="BANCO FALABELLA">
+    <option value="BANCO NACION">
+    <option value="LA POSITIVA">
+    <option value="RIMAC">
+  </datalist>
+  <input list="cursos" name="curso" id="curso" class="controls" placeholder="Escoja Curso">
+  <datalist id="cursos">
+<option value="Fundamentos QA">
+<option value="Agile Testing">
+<option value="Pensamiento Estratégico - SST - Hostigamiento y Acoso Laboral">
+<option value="Introducción a la Automatización">
+<option value="Introducción a Pruebas de Rendimiento">
+<option value="Tecnicas de diseño de pruebas"></option>
+</datalist>
+<label for="start">Fecha de Registro:</label>
+<input type="date" id="start" name="trip-start" class="controls">
+    <input class="botons" type="submit" name ="guardarcurso" value="Registrar">
+  </section>
+</form>
+</body>
+</html>
